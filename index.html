@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIAN</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/anton" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet" />
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="js/main.js"></script>
+  </head>
+  <body data-theme="dark">
+    <header class="header" id="home">
+      <div class="container">
+        <nav class="header__nav" switchable>
+          <div class="header__logo logo">
+            <a href="#home">
+              <img src="img/logo-dark.svg" alt="logo" changeable />
+            </a>
+          </div>
+          <div class="header__burger-menu-container" switchable>
+            <ul class="header__links links">
+              <li class="header__link">
+                <a href="#home" class="link">Home</a>
+              </li>
+              <li class="header__link">
+                <a href="#portfolio" class="link">Portfolio</a>
+              </li>
+              <li class="header__link">
+                <a href="#skills" class="link">Skills</a>
+              </li>
+              <li class="header__link">
+                <a href="#about" class="link">About me</a>
+              </li>
+            </ul>
+            <ul class="header__controls">
+              <li class="header__controls-item">
+                <button class="theme-switcher" switchable>
+                  <span class="theme-switcher__circle" switchable></span>
+                </button>
+              </li>
+              <li class="header__controls-item">
+                <button class="contact-me-btn" switchable>Contact me</button>
+              </li>
+            </ul>
+          </div>
+          <button class="header__burger-menu">
+            <img src="img/header/menu-dark.svg" alt changeable />
+          </button>
+        </nav>
+        <div class="header__content" switchable>
+          <div
+            class="header__content-column header__content-column--1"
+            data-aos="fade-right"
+          >
+            <h1 class="header__title title">
+              PRODUCT DESIGNER
+              <br />
+              <span class="header__subtitle title--gradient"
+                >CRISTIAN MUÑOZ</span
+              >
+            </h1>
+            <ul class="header__socials socials">
+              <li class="socials__social">
+                <a href="#0"
+                  ><img
+                    src="img/header/__socials/instagram-dark.svg"
+                    alt="instagram"
+                    width="52"
+                    height="52"
+                    changeable
+                /></a>
+              </li>
+              <li class="socials__social">
+                <a href="#0"
+                  ><img
+                    src="img/header/__socials/figma-dark.svg"
+                    alt="figma"
+                    width="52"
+                    height="52"
+                    changeable
+                /></a>
+              </li>
+              <li class="socials__social">
+                <a href="#0"
+                  ><img
+                    src="img/header/__socials/linkedin-dark.svg"
+                    alt="linkedin"
+                    width="52"
+                    height="52"
+                    changeable
+                /></a>
+              </li>
+              <li class="socials__social">
+                <a href="#0"
+                  ><img
+                    src="img/header/__socials/twitter-dark.svg"
+                    alt="twitter"
+                    width="52"
+                    height="52"
+                    changeable
+                /></a>
+              </li>
+              <li class="socials__social">
+                <a href="#0"
+                  ><img
+                    src="img/header/__socials/telegram-dark.svg"
+                    alt="telegram"
+                    width="52"
+                    height="52"
+                    changeable
+                /></a>
+              </li>
+              <li class="socials__social">
+                <a href="#0"
+                  ><img
+                    src="img/header/__socials/medium-dark.svg"
+                    alt="medium"
+                    width="52"
+                    height="52"
+                    changeable
+                /></a>
+              </li>
+            </ul>
+            <a class="header__download-btn btn"
+              >Download Curriculum Vitae
+              <img
+                src="img/header/download.svg"
+                alt="download"
+                class="header__download-icon"
+              />
+            </a>
+          </div>
+          <div
+            class="header__content-column header__content-column--2"
+            data-aos="fade-left"
+          >
+            <img
+              class="header__image"
+              src="img/header/header-main-image.png"
+              alt="image"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <h2 class="visually-hidden">Statistics</h2>
+    <section class="statistics">
+      <div class="container">
+        <ul class="statistics__list" switchable data-aos="flip-up">
+          <li class="statistics__item statistics__item--1">
+            <span class="statistics__number">90%</span>
+            <h3 class="statistics__title">Job Success Score on Upwork</h3>
+          </li>
+          <li class="statistics__item statistics__item--2">
+            <span class="statistics__number">>25.000</span>
+            <h3 class="statistics__title">Duplicates on Figma Community</h3>
+          </li>
+          <li class="statistics__item statistics__item--3">
+            <span class="statistics__number">>2k</span>
+            <h3 class="statistics__title">In Finished Works</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="portfolio__title title">Portfolio</h2>
+        <ul class="portfolio__list" switchable data-aos="fade-up">
+          <li class="portfolio__item">
+            <img
+              src="img/portfolio/01.png"
+              alt="portfolio item"
+              class="portfolio__image"
+            />
+            <h3 class="portfolio__subtitle">Mi portal U</h3>
+            <ul class="portfolio__tags tags">
+              <li class="tags__tag">
+                <a href="#0">UX Design</a>
+              </li>
+              <li class="tags__tag">
+                <a href="#0">University</a>
+              </li>
+              <li class="tags__tag">
+                <a href="#0">JavaScript</a>
+              </li>
+            </ul>
+            <a href="#0" class="portfolio__btn btn">Figma community</a>
+          </li>
+          <li class="portfolio__item">
+            <img
+              src="img/portfolio/01.png"
+              alt="portfolio item"
+              class="portfolio__image"
+            />
+            <h3 class="portfolio__subtitle">Mi portal U</h3>
+            <ul class="portfolio__tags tags">
+              <li class="tags__tag">
+                <a href="#0">UX Design</a>
+              </li>
+              <li class="tags__tag">
+                <a href="#0">University</a>
+              </li>
+              <li class="tags__tag">
+                <a href="#0">JavaScript</a>
+              </li>
+            </ul>
+            <a href="#0" class="portfolio__btn btn">Figma community</a>
+          </li>
+          <li class="portfolio__item">
+            <img
+              src="img/portfolio/01.png"
+              alt="portfolio item"
+              class="portfolio__image"
+            />
+            <h3 class="portfolio__subtitle">Mi portal U</h3>
+            <ul class="portfolio__tags tags">
+              <li class="tags__tag">
+                <a href="#0">UX Design</a>
+              </li>
+              <li class="tags__tag">
+                <a href="#0">University</a>
+              </li>
+              <li class="tags__tag">
+                <a href="#0">JavaScript</a>
+              </li>
+            </ul>
+            <a href="#0" class="portfolio__btn btn">Figma community</a>
+          </li>
+          <li class="portfolio__item">
+            <img
+              src="img/portfolio/01.png"
+              alt="portfolio item"
+              class="portfolio__image"
+            />
+            <h3 class="portfolio__subtitle">Mi portal U</h3>
+            <ul class="portfolio__tags tags">
+              <li class="tags__tag">
+                <a href="#0">UX Design</a>
+              </li>
+              <li class="tags__tag">
+                <a href="#0">University</a>
+              </li>
+              <li class="tags__tag">
+                <a href="#0">JavaScript</a>
+              </li>
+            </ul>
+            <a href="#0" class="portfolio__btn btn">Figma community</a>
+          </li>
+          <li class="portfolio__item">
+            <img
+              src="img/portfolio/01.png"
+              alt="portfolio item"
+              class="portfolio__image"
+            />
+            <h3 class="portfolio__subtitle">Mi portal U</h3>
+            <ul class="portfolio__tags tags">
+              <li class="tags__tag">
+                <a href="#0">UX Design</a>
+              </li>
+              <li class="tags__tag">
+                <a href="#0">University</a>
+              </li>
+              <li class="tags__tag">
+                <a href="#0">JavaScript</a>
+              </li>
+            </ul>
+            <a href="#0" class="portfolio__btn btn">Figma community</a>
+          </li>
+          <li class="portfolio__item">
+            <img
+              src="img/portfolio/01.png"
+              alt="portfolio item"
+              class="portfolio__image"
+            />
+            <h3 class="portfolio__subtitle">Mi portal U</h3>
+            <ul class="portfolio__tags tags">
+              <li class="tags__tag">
+                <a href="#0">UX Design</a>
+              </li>
+              <li class="tags__tag">
+                <a href="#0">University</a>
+              </li>
+              <li class="tags__tag">
+                <a href="#0">JavaScript</a>
+              </li>
+            </ul>
+            <a href="#0" class="portfolio__btn btn">Figma community</a>
+          </li>
+          <li class="portfolio__item">
+            <img
+              src="img/portfolio/01.png"
+              alt="portfolio item"
+              class="portfolio__image"
+            />
+            <h3 class="portfolio__subtitle">Mi portal U</h3>
+            <ul class="portfolio__tags tags">
+              <li class="tags__tag">
+                <a href="#0">UX Design</a>
+              </li>
+              <li class="tags__tag">
+                <a href="#0">University</a>
+              </li>
+              <li class="tags__tag">
+                <a href="#0">JavaScript</a>
+              </li>
+            </ul>
+            <a href="#0" class="portfolio__btn btn">Figma community</a>
+          </li>
+          <li class="portfolio__item">
+            <img
+              src="img/portfolio/01.png"
+              alt="portfolio item"
+              class="portfolio__image"
+            />
+            <h3 class="portfolio__subtitle">Mi portal U</h3>
+            <ul class="portfolio__tags tags">
+              <li class="tags__tag">
+                <a href="#0">UX Design</a>
+              </li>
+              <li class="tags__tag">
+                <a href="#0">University</a>
+              </li>
+              <li class="tags__tag">
+                <a href="#0">JavaScript</a>
+              </li>
+            </ul>
+            <a href="#0" class="portfolio__btn btn">Figma community</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="skills__title title">Skills</h2>
+        <ul class="skills__list" switchable data-aos="fade-up">
+          <li class="skills__item">
+            <div class="skills__image">
+              <img src="img/skills/01.png" alt="skill" />
+              <div class="skills__image-text">97%</div>
+            </div>
+            <div class="skills__text-body">
+              <h3 class="skills__subtitle title">UX Design</h3>
+              <p class="skills__text">
+                UI design is the process of designing the visual and interactive
+                elements of a user interface, such as buttons, icons, and
+                layout, to create an intuitive and pleasing experience for
+                users.
+              </p>
+            </div>
+          </li>
+          <li class="skills__item">
+            <div class="skills__image">
+              <img src="img/skills/01.png" alt="skill" />
+              <div class="skills__image-text">97%</div>
+            </div>
+            <div class="skills__text-body">
+              <h3 class="skills__subtitle title">UI Design</h3>
+              <p class="skills__text">
+                UI design is the process of designing the visual and interactive
+                elements of a user interface, such as buttons, icons, and
+                layout, to create an intuitive and pleasing experience for
+                users.
+              </p>
+            </div>
+          </li>
+          <li class="skills__item">
+            <div class="skills__image">
+              <img src="img/skills/01.png" alt="skill" />
+              <div class="skills__image-text">97%</div>
+            </div>
+            <div class="skills__text-body">
+              <h3 class="skills__subtitle title">Information Architecture</h3>
+              <p class="skills__text">
+                Information architecture is the design of the structure and
+                organization of content on a website or digital product to make
+                it easy for users to navigate and understand.
+              </p>
+            </div>
+          </li>
+          <li class="skills__item">
+            <div class="skills__image">
+              <img src="img/skills/01.png" alt="skill" />
+              <div class="skills__image-text">97%</div>
+            </div>
+            <div class="skills__text-body">
+              <h3 class="skills__subtitle title">Figma</h3>
+              <p class="skills__text">
+                Figma is a cloud-based design tool that allows teams to
+                collaborate on the design process in real time. It offers a
+                range of features for designing, prototyping, and sharing user
+                interfaces.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="review" switchable data-aos="fade-up">
+      <h2 class="visually-hidden">Review</h2>
+      <div class="container">
+        <div class="review__body" data-aos="zoom-in">
+          <h3 class="review__author">Kaleb Lechtenberg</h3>
+          <div class="review__text">
+            <p>
+              "Working with this freelancer has been great. His attention to
+              detail is unparalleled and finished all work ahead of schedule.
+              Will gladly send more work and I do not hesitate to recommend him
+              to you on your project also."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <ul class="about__row">
+          <li
+            class="about__column about__column--1 about__text-content"
+            data-aos="fade-right"
+          >
+            <h2 class="about__title title" switchable>About Me</h2>
+            <div class="about__text">
+              <p>
+                I am a
+                <span class="gradient gradient--1">Product Designer</span>
+                and Frontend Developer, I fully understand the process of design
+                and development of a digital product, my job is to make a
+                product usable and visually appealing, through the
+                <span class="gradient gradient--2">Design Thinking</span>
+                methodology I manage to create products that are endearing to
+                users.
+              </p>
+            </div>
+          </li>
+          <li class="about__column about__image" data-aos="fade-left">
+            <picture>
+              <source
+                media="(max-width:1250px)"
+                srcset="img/about/01-t.png 1250w, img/about/01-m.png 768w"
+              />
+              <img src="img/about/01-dark.png" alt="baby" changeable />
+            </picture>
+          </li>
+        </ul>
+        <ul class="about__row">
+          <li
+            class="about__column about__column--2 about__text-content"
+            data-aos="fade-left"
+          >
+            <div class="about__text">
+              <p>
+                I am passionate about
+                <span class="gradient gradient--1">never stopping learning</span
+                >, I am constantly training and learning about new and changing
+                <span class="gradient gradient--2">technology</span>
+                trends that way I bring an updated opinion of the Tech industry.
+              </p>
+            </div>
+          </li>
+          <li class="about__column about__image" data-aos="fade-right">
+            <picture>
+              <source
+                media="(max-width:1250px)"
+                srcset="img/about/02-t.png 1250w, img/about/02-m.png 768w"
+              />
+              <img src="img/about/02-dark.png" alt="baby" changeable />
+            </picture>
+          </li>
+        </ul>
+        <ul class="about__row">
+          <li
+            class="about__column about__column--3 about__text-content"
+            data-aos="fade-right"
+          >
+            <div class="about__text">
+              <p>
+                My full name is
+                <span class="gradient gradient--1"
+                  >Cristian David Muñoz Camayo</span
+                >
+                and more than what I said before I am a dreamer, I am proudly
+                <span class="gradient gradient--2">Colombian</span> and in me
+                you will find a human being with the desire to do his best to
+                help others.
+              </p>
+            </div>
+          </li>
+          <li class="about__column about__image" data-aos="fade-left">
+            <picture>
+              <source
+                media="(max-width:1250px)"
+                srcset="img/about/03-t-dark.png 1250w, img/about/03-m.png 768w"
+                changeable
+              />
+              <img src="img/about/03-dark.png" alt="baby" changeable />
+            </picture>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__text-block-wrapper">
+          <div
+            class="footer__text-block"
+            data-aos="fade-up"
+            data-aos-duration="400"
+          >
+            <p class="footer__text">
+              Thanks for visiting my website.
+              <br />
+              If you have any questions, you can contanct me on any of my social
+              networks, I will gladly answer you.
+            </p>
+          </div>
+        </div>
+
+        <nav class="footer__nav">
+          <div class="footer__logo logo">
+            <a href="#home">
+              <img
+                src="img/logo-dark.svg"
+                alt="logo"
+                width="164px"
+                height="60px"
+              />
+            </a>
+          </div>
+          <ul class="footer__links links">
+            <li class="footer__link">
+              <a href="#home" class="link">Home</a>
+            </li>
+            <li class="footer__link">
+              <a href="#portfolio" class="link">Portfolio</a>
+            </li>
+            <li class="footer__link">
+              <a href="#skills" class="link">Skills</a>
+            </li>
+            <li class="footer__link">
+              <a href="#about" class="link">About me</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
